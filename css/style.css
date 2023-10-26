@@ -184,8 +184,8 @@ header {
 #conus_left {
   position: absolute;
   left: 0;
-  top: 1220px;
-  max-width: 100%;
+  top: 1300px;
+  width: 800px;
   z-index: -1;
 }
 .right_center {
@@ -528,9 +528,9 @@ footer {
   #conus_left {
     position: absolute;
     left: 0;
-    top: 1420px;
+    top: 1455px;
     max-width: 320px;
-    height: 203px;
+    height: 250px;
     z-index: -1;
   }
   .right_center {
@@ -707,5 +707,16 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 48px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #conus_left {
+    top: 1200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #conus_left {
+    top: 1450px;
   }
 }
