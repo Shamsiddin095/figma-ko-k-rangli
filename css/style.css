@@ -19,7 +19,6 @@ body {
 }
 .container {
   max-width: 1900px;
-  border: 2px solid slategrey;
   margin: 0 auto;
   position: relative;
   padding: 60px 165px 116px 165px;
